@@ -40,7 +40,7 @@ Download Webots at:
 https://cyberbotics.com
 
 ## 2. Clone the repository
-git clone https://github.com/your-org/drone-sim-challenge-2025.git
+git clone https://github.com/RHUL-Robotics-AI-Society/Dronethon-2025.git
 cd drone-sim-challenge-2025
 
 ## 3. Open a sample world
