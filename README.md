@@ -48,15 +48,12 @@ cd Dronethon-2025
 In Webots:
 File → Open World → choose from /worlds
 
-## 4. Attach a controller
-
-Click your drone in the Scene Tree
-
-Set the controller to one from /starter-code
 
 ## 5. Begin development
 
 Use the starter templates to build:
+
+create your own drone
 
 navigation logic
 
