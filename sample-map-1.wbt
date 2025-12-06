@@ -1,0 +1,37 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/fire_extinguisher/protos/FireExtinguisher.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/hospital/protos/MedicineBottle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/telephone/protos/Telephone.proto"
+EXTERNPROTO "../protos/Mavic2Pro.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.21352642708825773 -0.11521769451965282 -0.9701192441161545 4.106074726082519
+  position 34.4856135250829 -41.28299064128073 24.036534231270295
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 20 20
+}
+FireExtinguisher {
+  translation -3.77053 6.63514 0
+  rotation 0 0 1 -1.5707953071795862
+}
+DEF flacon MedicineBottle {
+  translation 3.13 2.56 0.06
+  name "medicine bottle(1)"
+}
+Telephone {
+  translation -0.660444 -9.88061 1.21
+  rotation 0 0 1 1.0472
+}
+Mavic2Pro {
+}

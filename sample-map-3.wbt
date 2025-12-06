@@ -1,0 +1,238 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/fire_extinguisher/protos/FireExtinguisher.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/hospital/protos/MedicineBottle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/telephone/protos/Telephone.proto"
+EXTERNPROTO "../protos/Mavic2Pro.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/fridge/protos/Fridge.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/toyota/ToyotaPrius.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/television/protos/Television.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/advertising_board/protos/AdvertisingBoard.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.21352642708825773 -0.11521769451965282 -0.9701192441161545 4.106074726082519
+  position 15.177284330249641 -11.887411938449512 7.766296646620767
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 20 20
+}
+AdvertisingBoard {
+  translation -3.47081 4.16784 0
+  rotation 0 0 1 0.523595
+}
+Television {
+  translation 1.77067 8.7959 0.3
+  rotation 0 0 1 -1.8325953071795862
+}
+Table {
+  translation 7.7044 -7.64322 0
+  rotation 0 0 1 -1.047195307179586
+}
+Table {
+  translation 7.90238 -2.80628 0
+  rotation 0 0 1 3.14159
+  name "table(4)"
+}
+Table {
+  translation 7.097 -1.47128 0
+  rotation 0 0 -1 -2.094395307179586
+  name "table(5)"
+}
+Table {
+  translation 1.7294 2.70563 0
+  rotation 0 0 1 -1.8325953071795862
+  name "table(1)"
+}
+Table {
+  translation -0.121151 1.71074 0
+  rotation 0 0 1 -2.6179953071795863
+  name "table(2)"
+}
+Table {
+  translation -3.98364 -0.51926 0
+  rotation 0 0 1 -2.6179953071795863
+  name "table(3)"
+}
+OfficeChair {
+  translation 8.06083 -8.25083 0
+  rotation 0 0 -1 -2.0943853071795866
+}
+Fridge {
+  translation -8.83198 -1.49195 0
+  rotation 0 0 -1 -0.523595307179586
+}
+Fridge {
+  translation -8.7024 -2.45635 0
+  rotation 0 0 1 -0.2618053071795865
+  name "fridge(1)"
+}
+FireExtinguisher {
+  translation -7.95053 7.09514 0
+  rotation 0 0 1 -1.5707953071795862
+}
+DEF flacon MedicineBottle {
+  translation 7.14 -7.53 0.06
+  name "medicine bottle(1)"
+}
+Telephone {
+  translation -7.23438 -7.66706 1.21
+  rotation 0 0 1 1.0472
+}
+Mavic2Pro {
+}
+CardboardBox {
+  translation -7.56 -8.01 0.3
+}
+CardboardBox {
+  translation 2.63 -2.53 0.3
+  name "cardboard box(5)"
+}
+CardboardBox {
+  translation -0.06 -8.76 0.3
+  name "cardboard box(8)"
+}
+CardboardBox {
+  translation -0.69 -8.76 0.3
+  name "cardboard box(9)"
+}
+CardboardBox {
+  translation -3.15 -4.1 0.3
+  name "cardboard box(11)"
+}
+CardboardBox {
+  translation -3.15 -4.77 0.3
+  name "cardboard box(12)"
+}
+CardboardBox {
+  translation -2.83 -4.77 0.92
+  rotation 0 0 1 0.785398
+  name "cardboard box(14)"
+}
+CardboardBox {
+  translation -2.83 -4.77 1.56
+  rotation 0 0 -1 -0.261795307179586
+  name "cardboard box(22)"
+}
+CardboardBox {
+  translation -2.52 -4.64 0.3
+  name "cardboard box(13)"
+}
+CardboardBox {
+  translation 0.62 -5.66 0.3
+  name "cardboard box(15)"
+}
+CardboardBox {
+  translation -0.36 -4.86 0.3
+  rotation 0 0 1 1.0472
+  name "cardboard box(19)"
+}
+CardboardBox {
+  translation -0.99 -4.35 0.3
+  name "cardboard box(20)"
+}
+CardboardBox {
+  translation -0.7 -4.49 0.91
+  rotation 0 0 1 0.523599
+  name "cardboard box(21)"
+}
+CardboardBox {
+  translation 0.3 -6.26 0.3
+  name "cardboard box(16)"
+}
+CardboardBox {
+  translation 0.96 -6.26 0.3
+  name "cardboard box(17)"
+}
+CardboardBox {
+  translation 0.62 -5.97 0.92
+  name "cardboard box(18)"
+}
+CardboardBox {
+  translation -0.42 -8.76 0.88
+  name "cardboard box(10)"
+}
+Fridge {
+  translation -8.83198 -1.49195 0
+  rotation 0 0 -1 -0.523595307179586
+  name "fridge(2)"
+}
+Fridge {
+  translation 0.972426 -0.529418 0.328196
+  rotation -0.8145620648815003 -0.3668740292222514 -0.4493240357895596 -1.2328553071795865
+  name "fridge(3)"
+}
+CardboardBox {
+  translation 2.25 -1.84 0.3
+  name "cardboard box(6)"
+}
+CardboardBox {
+  translation 2.98 -1.84 0.3
+  name "cardboard box(7)"
+}
+CardboardBox {
+  translation -6.93 -7.66 0.3
+  name "cardboard box(1)"
+}
+CardboardBox {
+  translation -7.58 -7.4 0.3
+  name "cardboard box(2)"
+}
+CardboardBox {
+  translation -7.58 4.33 0.3
+  name "cardboard box(23)"
+}
+CardboardBox {
+  translation 0.27 4.33 0.3
+  name "cardboard box(28)"
+}
+CardboardBox {
+  translation -0.34 4.65 0.3
+  name "cardboard box(29)"
+}
+CardboardBox {
+  translation 0.09 4.65 0.91
+  name "cardboard box(30)"
+}
+CardboardBox {
+  translation -7.95 3.72 0.3
+  name "cardboard box(24)"
+}
+CardboardBox {
+  translation -8.21 4.35 0.3
+  name "cardboard box(25)"
+}
+CardboardBox {
+  translation -7.68 4.27 0.92
+  name "cardboard box(26)"
+}
+CardboardBox {
+  translation -7.68 4.27 1.54
+  rotation 0 0 1 1.0472
+  name "cardboard box(27)"
+}
+CardboardBox {
+  translation -7.28 -7.7 0.89
+  rotation 0 0 1 2.0944
+  name "cardboard box(3)"
+}
+CardboardBox {
+  translation 2.74073 -1.8567 0.89
+  rotation 0 0 1 2.0944
+  name "cardboard box(4)"
+}
+ToyotaPrius {
+  translation 7.36519 7.10354 0.4
+  rotation 0 0 1 -2.3561953071795863
+}

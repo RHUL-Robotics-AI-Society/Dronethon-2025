@@ -1,0 +1,108 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/DogHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/TableWithUmbrella.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/humans/pedestrian/protos/Pedestrian.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/fridge/protos/Fridge.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/fire_extinguisher/protos/FireExtinguisher.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/drinks/protos/Can.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/hospital/protos/MedicineBottle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/bmw/BmwX5.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/telephone/protos/Telephone.proto"
+EXTERNPROTO "../protos/Mavic2Pro.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.21027675083930958 -0.782028262697912 -0.5866988021107153 5.423695854874162
+  position -21.107389469813608 -12.179559647904052 19.849929832821534
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 20 20
+}
+BmwX5 {
+  translation -1.83 7.22 0.37
+  rotation 0 0 1 -1.047195307179586
+}
+Pedestrian {
+  translation 8.66332 8.65333 1.27
+  rotation 0 0 1 -2.3561953071795863
+}
+Fridge {
+  translation 2.97 0 0
+  rotation 0 0 1 -2.6179953071795863
+}
+Fridge {
+  translation 7.21 -7.34377 0
+  rotation 0 0 1 -2.6179953071795863
+  name "fridge(1)"
+}
+Fridge {
+  translation 8.10198 -6.82877 0
+  rotation 0 0 1 -2.6179953071795863
+  name "fridge(2)"
+}
+DogHouse {
+  translation -8.19 8.76136 0
+  rotation 0 0 1 -1.047195307179586
+}
+CardboardBox {
+  translation 0.65 -3.84 0.3
+}
+CardboardBox {
+  translation -8.88 0.06 0.3
+  name "cardboard box(1)"
+}
+CardboardBox {
+  translation -8.53 0.84 0.3
+  name "cardboard box(6)"
+}
+CardboardBox {
+  translation -8.87 0.51 0.99
+  name "cardboard box(7)"
+}
+CardboardBox {
+  translation -1.37039 -3.86038 0.3
+  rotation 0 0 1 0.785398
+  name "cardboard box(2)"
+}
+CardboardBox {
+  translation -0.82 -2.92 0.3
+  name "cardboard box(3)"
+}
+CardboardBox {
+  translation -0.7 0.59 0.95
+  name "cardboard box(4)"
+}
+CardboardBox {
+  translation -0.71 0.93 0.3
+  name "cardboard box(5)"
+}
+TableWithUmbrella {
+  translation -7.79 -6.07 0
+}
+FireExtinguisher {
+  translation -7.95053 0.20514 0
+  rotation 0 0 1 -1.047195307179586
+}
+DEF flacon MedicineBottle {
+  translation 7.14 -7.53 1.87
+  name "medicine bottle(1)"
+}
+Can {
+  translation -3.13 0.37 0.18
+  rotation 0.4870580804890333 -0.22604503735518877 0.843610139411227 2.88205
+}
+Telephone {
+  translation -8.05 -6.52 0.95
+}
+Mavic2Pro {
+}
