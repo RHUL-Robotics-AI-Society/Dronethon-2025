@@ -13,26 +13,6 @@ Teams from across London will compete to build autonomous drones inside the Webo
 This repository contains the starter code, sample worlds, object models, and all rules and scoring details needed to prepare for the challenge.
 Teams of 2–4 members, all skill levels welcome.
 
-### 📁 Repository Structure
-  `drone-sim-challenge-2025/
-  │
-  ├── starter-code/
-  │   ├── basic_controller.py
-  │   ├── object_recognition_example.py
-  │   ├── simple_search_pattern.py
-  │
-  ├── worlds/
-  │   ├── sample_world_easy.wbt
-  │   ├── sample_world_advanced.wbt
-  │
-  ├── objects/
-  │   ├── target_cube.wbo
-  │   ├── target_sphere.wbo
-  │
-  ├── examples/
-  │   ├── demo.gif
-  │   ├── environment_screenshot.png`
-
 ### 🚀 Getting Started
 ## 1. Install Webots
 
