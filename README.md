@@ -90,11 +90,10 @@ Webots Recognition camera
 
 Colour / shape detection (OpenCV)
 
-Pre-trained ML models (no training during the event)
+Pre-trained ML models
 
 Not Allowed
 
-Reinforcement learning training during the event
 
 Internet-dependent models or cloud services
 
@@ -102,13 +101,10 @@ Manual intervention once simulation starts
 
 Provided on Event Day
 
-Competition world
+Sample worlds
 
 Target object definitions
 
-Object naming conventions
-
-Time limits for rounds
 
 Objective
 
@@ -144,15 +140,11 @@ Smooth navigation
 
 Efficient exploration pattern
 
-Clean code architecture (optional category)
-
 Final Score Formula (simplified)
 Final Score = Time + Penalties – Bonuses
 
 
 Lowest score wins.
-
-A full scoring sheet will be revealed on the event day.
 
 
 ### 🏛️ Organisers
